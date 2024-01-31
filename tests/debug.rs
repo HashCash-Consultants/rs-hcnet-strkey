@@ -1,4 +1,4 @@
-use stellar_strkey::*;
+use hcnet_strkey::*;
 
 extern crate proptest;
 

@@ -9,11 +9,11 @@
 // Xor constant to output CRC : 0000
 // Output for "123456789"     : 31C3
 //
-// Ported from the Go code in the stellar/go codebase:
-// https://github.com/stellar/go/blob/229fb05c5aa7183d57ecec1a0f8165bcd17d445f/strkey/internal/crc16/main.go
+// Ported from the Go code in the hcnet/go codebase:
+// https://github.com/hcnet/go/blob/229fb05c5aa7183d57ecec1a0f8165bcd17d445f/strkey/internal/crc16/main.go
 //
-// Originally ported from the C++ code in the stellar-core codebase:
-// https://github.com/stellar/stellar-core
+// Originally ported from the C++ code in the hcnet-core codebase:
+// https://github.com/hcnet/hcnet-core
 //
 // The code is licensed as:
 /*

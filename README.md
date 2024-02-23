@@ -1,4 +1,4 @@
-# rs-stellar-strkey
+# rs-hcnet-strkey
 
 Library and CLI containing types and functionality for working with Stellar
 Strkeys.
@@ -13,7 +13,7 @@ and is receiving breaking changes frequently.**
 To use the library, include in your toml:
 
 ```toml
-stellar-strkey = "..."
+hcnet-strkey = "..."
 ```
 
 #### CLI
@@ -21,20 +21,20 @@ stellar-strkey = "..."
 To use the CLI:
 
 ```console
-cargo install --locked stellar-strkey --version ... --features cli
+cargo install --locked hcnet-strkey --version ... --features cli
 ```
 
 ##### Examples
 
 Decode a `G` account/public-key strkey:
 ```console
-$ stellar-strkey decode GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF
+$ hcnet-strkey decode GAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWHF
 PublicKeyEd25519(PublicKey(0000000000000000000000000000000000000000000000000000000000000000))
 ```
 
 Decode a `C` contract strkey:
 ```console
-$ stellar-strkey decode CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSC4
+$ hcnet-strkey decode CAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABSC4
 Contract(Contract(0000000000000000000000000000000000000000000000000000000000000000))
 ```
 

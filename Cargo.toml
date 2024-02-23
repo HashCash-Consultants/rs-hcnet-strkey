@@ -1,8 +1,8 @@
 [package]
 name = "hcnet-strkey"
-description = "Strkey for hcnet"
-homepage = "https://github.com/HashCash-Consultants/rs-hcnet-strkey.git"
-repository = "https://github.com/HashCash-Consultants/rs-hcnet-strkey.git"
+description = "Encode and decode strkeys for Hcnet."
+homepage = ""
+repository = ""
 authors = [""]
 license = "Apache-2.0"
 readme = "README.md"
